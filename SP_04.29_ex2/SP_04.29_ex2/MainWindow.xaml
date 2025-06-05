@@ -1,0 +1,12 @@
+﻿<Window x:Class="SP_04._29_ex2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+            <Button Content="Запустити потоки" Width="200" Height="50" Click="StartThreadsButton_Click"/>
+            <TextBlock Name="ModifiedArrayText" Text="Модифікований масив: " Margin="10" FontSize="16"/>
+            <TextBlock Name="MaxValueText" Text="Максимальне значення: " Margin="10" FontSize="16"/>
+        </StackPanel>
+    </Grid>
+</Window>
